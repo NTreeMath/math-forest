@@ -1,0 +1,15 @@
+# section information
+section:
+  name: PDF一覧
+  id: pdf-list
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+documents:
+- name: 環の局所化
+  link: localization.pdf
+  description: 整数環から有理数体を作る方法を復習し、環の局所化を説明し、普遍性を証明した。
+- name: 指数 $p$ の部分群
+  link: subgroup_of_index_p.pdf
+  description: ある条件をみたす指数 $p$ の部分群が正規部分群であることを示す。

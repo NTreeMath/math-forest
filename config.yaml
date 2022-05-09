@@ -1,0 +1,66 @@
+baseURL: https://example.com
+
+languageCode: jp
+title: "Math Forest"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  jp:
+    languageName: 日本語
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
+
+DefaultContentLanguage: jp
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  background: /images/site/background.jpg
+  
+  # GitHub repo URL and branch of your site
+  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitBranch: main
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Show tags under the post title
+  enableTags: true
+  
+  features:
+    portfolio:
+      enable: true
+    blog:
+      enable: true
+      shareButtons:
+        twitter: true
+        facebook: true
+        linkedin: true
+    enableTOC: true
+
+  newsletter:
+    enable: false

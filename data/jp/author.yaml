@@ -1,0 +1,17 @@
+# some information about you
+name: "N'Tree"
+nickname: "N'Tree"
+image: "images/author/ntree.JPG"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "こんにちは、私は"
+
+contactInfo:
+  github: NTreeMath
+  twitter: NaturalTreeMath
+
+# a summary of what you do
+summary:
+- 数学科の大学院生です。
+- 表現論に興味があります。
+- 木も好きです。

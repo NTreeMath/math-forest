@@ -1,0 +1,17 @@
+# some information about you
+name: "N'Tree"
+nickname: "N'Tree"
+image: "images/author/ntree.JPG"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hello, I'm"
+
+contactInfo:
+  github: NTreeMath
+  twitter: NaturalTreeMath
+
+# a summary of what you do
+summary:
+- I am a graduate student in mathematics.
+- I'm interested in representation theory.
+- I also like trees.
