@@ -60,6 +60,7 @@ params:
         twitter: true
         facebook: true
         linkedin: true
+        reddit: true
     enableTOC: true
 
   newsletter:
