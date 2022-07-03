@@ -13,3 +13,6 @@ documents:
 - name: 指数 $p$ の部分群
   link: subgroup_of_index_p.pdf
   description: ある条件をみたす指数 $p$ の部分群が正規部分群であることを示す。
+- name: 対称群の分岐則
+  link: branching_rule_sn.pdf
+  description: 対称群の分岐則を『テンソル代数と表現論』をもとに証明する。
